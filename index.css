@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
@@ -28,8 +28,17 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh;  
+  color: #1a1a1a;
+  font-weight: 700;
+    background: url('src/puppies.png') bottom left no-repeat;
+    background-size: contain;
+    background-color: rgb(255, 253, 253);; 
+    background-blend-mode: multiply;
+  color: #000000;
+  
 }
+
 
 h1 {
   font-size: 3.2em;
